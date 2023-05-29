@@ -16,16 +16,20 @@
 		font-size: 2.25rem;
 		text-align: center;
 	}
-	
+
 	div.page-container {
 		max-width: 1200px;
 		margin: 0 auto;
 		margin-top: 60px;
 	}
-	
+
 	@media screen and (min-width: 400px) {
-		h1 { 
+		h1 {
 			font-size: 2.75rem;
+		}
+
+		div.page-container {
+			margin-top: 75px;
 		}
 	}
 </style>
