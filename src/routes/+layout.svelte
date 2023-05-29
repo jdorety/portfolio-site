@@ -1,6 +1,8 @@
-<script>
+<script lang="ts">
 	import Navbar from '../components/Navbar.svelte';
 	import Footer from '../components/Footer.svelte';
+
+	const copyright = new Date().getFullYear();
 </script>
 
 <Navbar />
@@ -8,7 +10,7 @@
 	<h1>Jonathan Dorety</h1>
 	<slot />
 </div>
-<Footer />
+<Footer {copyright} />
 
 <style>
 	h1 {

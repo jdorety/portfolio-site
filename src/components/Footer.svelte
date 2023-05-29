@@ -1,5 +1,5 @@
 <script lang="ts">
-	const copyright = new Date().getFullYear();
+	export let copyright: number | string;
 </script>
 
 <footer>
@@ -11,7 +11,6 @@
 		position: absolute;
 		bottom: 0px;
 		left: 0px;
-		padding-bottom: 5px;
 	}
 	span {
 		margin-left: 4px;
