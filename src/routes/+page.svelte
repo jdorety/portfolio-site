@@ -15,23 +15,24 @@
 
 <style>
 	.splash-caption {
-		/* display: absolute; */
-		margin: 0 5%;
+		position: relative;
+    top: 20px;
 	}
 	#headshot-image {
 		max-width: 150px;
 	}
 	.caption {
-		position: relative;
-		bottom: 50px;
-		left: 25%;
-		max-width: 250px;
+		position: absolute;
+		top: -20px;
+		width: 65%;
+		right: 0;
 		background-color: aqua;
 		padding: 4px 14px;
 		text-align: justify;
 	}
 	.caption p {
 		color: indigo;
+		font-family: 'Courier New', Courier, monospace;
 	}
 
 	@media screen and (min-width: 400px) {
