@@ -1,2 +1,6 @@
-<h2>Full-Stack Web Developer</h2>
-<p>Hire me for your next gig!</p>
+<script lang="ts">
+	import Subheader from '../components/Subheader.svelte';
+</script>
+
+<Subheader>Full-Stack Web Developer</Subheader>
+<p />
