@@ -18,21 +18,20 @@
 <style>
 	.splash-caption {
 		position: relative;
-		top: 20px;
-		left: 5%;
 	}
 	#headshot-image {
-		max-width: 150px;
+		max-width: 350px;
 	}
 	.caption {
-		position: absolute;
+		position: relative;
 		background-color: aqua;
 		padding: 4px 14px;
 		text-align: justify;
 		width: 65%;
 		font-size: 0.8rem;
-		bottom: -20px;
-		left: 20%;
+		border-style: dashed;
+		border-color: magenta;
+		box-shadow: 6px 6px aqua, -6px -6px aqua, 6px -6px aqua, -6px 6px aqua;
 	}
 	.caption p {
 		color: indigo;
